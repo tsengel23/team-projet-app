@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "E-СӨХ",
+    "slug": "e-soh-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "esoh",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1B4332"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "mn.esoh.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "QR код уншихад камер ашиглана"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1B4332"
+      },
+      "package": "mn.esoh.app",
+      "permissions": ["android.permission.CAMERA"]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "QR код уншихад камер ашиглана"
+        }
+      ]
+    ]
+  }
+}
