@@ -252,7 +252,7 @@ export default function HomeScreen() {
           {/* Post carousel  ah*/}
           <PostCarousel
             posts={posts}
-            onViewAll={() => router.push("/(tabs)/feed")}
+            onViewAll={() => router.push("/(tabs)/newsfeed")}
           />
 
           {/* СӨХ Хураамж erhemee*/}

@@ -1,5 +1,5 @@
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
+import { Stack } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 
 export default function RootLayout() {
   return (
@@ -12,6 +12,8 @@ export default function RootLayout() {
         <Stack.Screen name="pending" />
         <Stack.Screen name="otp" />
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="payment" />
+        <Stack.Screen name="fund-detail" />
       </Stack>
     </>
   );
